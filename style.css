@@ -1,0 +1,20 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: rgb(68, 190, 238);
+}
+
+canvas {
+    animation-name: lotty;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes lotty{
+
+    from {box-shadow: 15px 15px 50px rgb(113, 228, 87);}
+    to {box-shadow: 15px 15px 50px rgb(160, 14, 180);}
+}
